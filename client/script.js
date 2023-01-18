@@ -74,7 +74,7 @@ function typeText(element, text) {
   loader(messageDiv);
 
  //fetch data from server
-const response = await fetch('https://codex-05x6.onrender.com',{
+const response = await fetch('https://codex-05x6.onrender.com/',{
   method:'POST',
   headers:{
    'Content-Type':'application/json' 
